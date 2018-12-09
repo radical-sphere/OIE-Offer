@@ -1,4 +1,20 @@
 
+footer{
+    background-color: #42428b;
+    padding: 2vw;
+    color: #baaeae;
+
+}
+footer a{
+    color: #baaeae;
+}
+footer a:hover{
+    color: #f0f0f0;
+    text-decoration: none;
+
+}
+
+
 footer li{
     font-size: 14px;
 }
@@ -7,10 +23,78 @@ footer img{
     max-width: 20px;
     margin: 10px;
 
-    
+
 }
 
 .carousel-item img{
     width:100vw;
 }
+
+
+.brands img{
+    max-height: 30px;
+    margin: 10px;
+
+}
+
+.brands {
+    margin:50px 0;
+}
+
+
+
+.logo img{
+    max-height: 100px;
+    margin: 1vw;
+    
+}
+
+.logo h1{
+    font-weight: 400;
+    
+  background: -webkit-linear-gradient(#79448e, #333333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.offers {
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    opacity: 0.8;
+
+}
+
+.offer-blink{
+    -webkit-animation: mymove 4s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 4s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {opacity: 0.1;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {opacity: 0.4;}
+}
+
+.offer-blink-rev{
+    -webkit-animation: mymove 2s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 2s infinite;
+}
+
+.offers img{
+    max-height: 100px;
+    margin-top: 10%
+
+    
+}
+.chain{
+    border: 5px solid;
+    border-image: url(/img/chain.png) 100 round;
+    border-image-outset: 1px;
+}
+    
 
