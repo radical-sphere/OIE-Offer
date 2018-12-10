@@ -61,7 +61,7 @@ footer img{
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
-    opacity: 0.8;
+/*    opacity: 0.8;*/
 
 }
 
@@ -98,3 +98,33 @@ footer img{
 }
     
 
+
+.offer-blink-text {
+      background: -webkit-linear-gradient(#79448e, #333333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+    -webkit-animation: offer-blink-text 1s infinite;  Chrome, Safari, Opera 
+    animation: offer-blink-text 1s infinite;
+    
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes offer-blink-text {
+    50% {background: -webkit-linear-gradient(#79448e, #333333);
+      -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+}
+
+/* Standard syntax */
+@keyframes offer-blink-text {
+    50% {background: -webkit-linear-gradient(#f72586, #c4a22f);
+      -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}    
+    
+/*
+    50% {background: -webkit-linear-gradient(#a50750, #7797dd);
+      -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+*/
+}
