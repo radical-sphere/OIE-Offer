@@ -104,10 +104,15 @@ footer img{
       background: -webkit-linear-gradient(#79448e, #333333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-    
+
     -webkit-animation: offer-blink-text 1s infinite;  Chrome, Safari, Opera 
     animation: offer-blink-text 1s infinite;
     
+}
+.offer-blink-text img{
+    max-height: 100px;
+    margin: auto;
+  
 }
 
 /* Chrome, Safari, Opera */
