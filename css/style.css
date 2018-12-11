@@ -31,7 +31,7 @@ footer img{
       height: 90%;
   }
 .brands img{
-    max-height: 30px;
+    max-height: 35px;
     margin: 10px;
 
 }
@@ -43,8 +43,8 @@ footer img{
 
 
 .logo img{
-    max-height: 100px;
-    margin: 1vw;
+    max-width: 99%;
+
     
 }
 
@@ -92,9 +92,10 @@ footer img{
     
 }
 .chain{
-    border: 5px solid;
-    border-image: url(/img/chain.png) 100 round;
-    border-image-outset: 1px;
+    border: 10px solid transparent;
+    border-image: url(/img/chain.png) 20;
+    border-image-repeat: stretch; 
+
 }
     
 
@@ -127,4 +128,13 @@ footer img{
       -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;}
 */
+}
+
+
+.special h4{
+    background-color: black;
+    color: #ffd803;
+    padding: 5px;
+    text-transform: uppercase;
+    
 }
