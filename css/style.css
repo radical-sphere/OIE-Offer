@@ -173,3 +173,45 @@ footer img{
 .lock {
 
 }
+
+.offerzone {
+    
+padding: 10px
+    
+}
+.offerzone img{
+    max-width: 100%;
+}
+
+
+.offer-banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+
+
+
+
+
+
+.offer-banner-bg img{
+    max-width: 100%;
+    position: absolute;
+    right:0;
+
+
+    z-index: -1;
+
+}
+
+
+
+
+
+
+
+.offerzonebanner {
+    background-color: #f6c70a;
+}
